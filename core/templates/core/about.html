@@ -1,0 +1,23 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Acerca de{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Acerca de</h1>
+<span class="subheading">Biografía</span>
+{% endblock %}
+
+{% block content %}
+<div class="row"> 
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/arfc.jpg' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">Alfonso Feria</h2>
+        <p>Programador Web con mas de 3	años de experiencia	manejando múltiples tecnologías que se usan	en la industria	del	software. Me considero una persona dinámica	y habituada	al
+            trabajo	bajo presión y en equipo. Me gustan	los	retos ya que pienso	que	estos me fortalecen en la forma	que	nos	dirigimos en el	día	a día.</p>
+    </div>
+</div>
+{% endblock %}

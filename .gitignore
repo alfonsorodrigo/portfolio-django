@@ -1,0 +1,12 @@
+*.pyo
+*.pyc
+secret.json
+media
+media/*
+.idea
+.idea/*
+.idea/workspace.xml
+webpersonal/__pycache__/
+webpersonal/__pycache__/*
+webpersonal/wsgi.py
+*.xml
